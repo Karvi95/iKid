@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9DA4FB061CD133F600950436"
+               BlueprintIdentifier = "9DA4FB441CD1394900950436"
                BuildableName = "iKid.app"
                BlueprintName = "iKid"
                ReferencedContainer = "container:iKid.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9DA4FB061CD133F600950436"
+            BlueprintIdentifier = "9DA4FB441CD1394900950436"
             BuildableName = "iKid.app"
             BlueprintName = "iKid"
             ReferencedContainer = "container:iKid.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9DA4FB061CD133F600950436"
+            BlueprintIdentifier = "9DA4FB441CD1394900950436"
             BuildableName = "iKid.app"
             BlueprintName = "iKid"
             ReferencedContainer = "container:iKid.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9DA4FB061CD133F600950436"
+            BlueprintIdentifier = "9DA4FB441CD1394900950436"
             BuildableName = "iKid.app"
             BlueprintName = "iKid"
             ReferencedContainer = "container:iKid.xcodeproj">
