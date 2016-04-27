@@ -29,13 +29,13 @@ class RolePlayViewController: UIViewController {
     
     private func firstBuilder() {
         if jokesetupViewController == nil {
-            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("Programming Setup")
+            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("RolePlay Setup")
                 as! RolePlayQuestViewController
         }
     }
     private func secondBuilder() {
         if punchlineViewController == nil {
-            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("Programming Punchline")
+            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("RolePlay Punchline")
                 as! RolePlayAnswerViewController
         }
     }
