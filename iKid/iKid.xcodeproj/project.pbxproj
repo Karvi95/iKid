@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D7D11131CD145EC004A8D51 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D11121CD145EC004A8D51 /* ThirdViewController.swift */; };
+		9D6306361CD16BB5007D5356 /* RolePlayAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6306351CD16BB5007D5356 /* RolePlayAnswerViewController.swift */; };
+		9D6306381CD16BD3007D5356 /* RolePlayQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6306371CD16BD3007D5356 /* RolePlayQuestViewController.swift */; };
+		9D63063A1CD16C0A007D5356 /* DadAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6306391CD16C0A007D5356 /* DadAnswerViewController.swift */; };
+		9D63063C1CD16C1B007D5356 /* DadQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63063B1CD16C1B007D5356 /* DadQuestViewController.swift */; };
+		9D6306461CD16CA3007D5356 /* ProgrammingQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6306451CD16CA3007D5356 /* ProgrammingQuestViewController.swift */; };
+		9D6306481CD16CBB007D5356 /* ProgrammingAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6306471CD16CBB007D5356 /* ProgrammingAnswerViewController.swift */; };
+		9D7D11131CD145EC004A8D51 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D11121CD145EC004A8D51 /* DadViewController.swift */; };
 		9DA4FB491CD1394900950436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4FB481CD1394900950436 /* AppDelegate.swift */; };
-		9DA4FB4B1CD1394900950436 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4FB4A1CD1394900950436 /* FirstViewController.swift */; };
-		9DA4FB4D1CD1394900950436 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4FB4C1CD1394900950436 /* SecondViewController.swift */; };
+		9DA4FB4B1CD1394900950436 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4FB4A1CD1394900950436 /* ProgrammingViewController.swift */; };
+		9DA4FB4D1CD1394900950436 /* RolePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4FB4C1CD1394900950436 /* RolePlayViewController.swift */; };
 		9DA4FB501CD1394900950436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA4FB4E1CD1394900950436 /* Main.storyboard */; };
 		9DA4FB521CD1394900950436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA4FB511CD1394900950436 /* Assets.xcassets */; };
 		9DA4FB551CD1394900950436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA4FB531CD1394900950436 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D7D11121CD145EC004A8D51 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9D6306351CD16BB5007D5356 /* RolePlayAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RolePlayAnswerViewController.swift; sourceTree = "<group>"; };
+		9D6306371CD16BD3007D5356 /* RolePlayQuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RolePlayQuestViewController.swift; sourceTree = "<group>"; };
+		9D6306391CD16C0A007D5356 /* DadAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadAnswerViewController.swift; sourceTree = "<group>"; };
+		9D63063B1CD16C1B007D5356 /* DadQuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadQuestViewController.swift; sourceTree = "<group>"; };
+		9D6306451CD16CA3007D5356 /* ProgrammingQuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammingQuestViewController.swift; sourceTree = "<group>"; };
+		9D6306471CD16CBB007D5356 /* ProgrammingAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammingAnswerViewController.swift; sourceTree = "<group>"; };
+		9D7D11121CD145EC004A8D51 /* DadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
 		9DA4FB451CD1394900950436 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA4FB481CD1394900950436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DA4FB4A1CD1394900950436 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9DA4FB4C1CD1394900950436 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9DA4FB4A1CD1394900950436 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
+		9DA4FB4C1CD1394900950436 /* RolePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolePlayViewController.swift; sourceTree = "<group>"; };
 		9DA4FB4F1CD1394900950436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DA4FB511CD1394900950436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA4FB541CD1394900950436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,10 +71,16 @@
 			isa = PBXGroup;
 			children = (
 				9DA4FB481CD1394900950436 /* AppDelegate.swift */,
-				9DA4FB4A1CD1394900950436 /* FirstViewController.swift */,
-				9DA4FB4C1CD1394900950436 /* SecondViewController.swift */,
+				9DA4FB4A1CD1394900950436 /* ProgrammingViewController.swift */,
+				9D6306471CD16CBB007D5356 /* ProgrammingAnswerViewController.swift */,
+				9D6306451CD16CA3007D5356 /* ProgrammingQuestViewController.swift */,
+				9DA4FB4C1CD1394900950436 /* RolePlayViewController.swift */,
+				9D6306351CD16BB5007D5356 /* RolePlayAnswerViewController.swift */,
+				9D6306371CD16BD3007D5356 /* RolePlayQuestViewController.swift */,
+				9D6306391CD16C0A007D5356 /* DadAnswerViewController.swift */,
+				9D63063B1CD16C1B007D5356 /* DadQuestViewController.swift */,
 				9DA4FB4E1CD1394900950436 /* Main.storyboard */,
-				9D7D11121CD145EC004A8D51 /* ThirdViewController.swift */,
+				9D7D11121CD145EC004A8D51 /* DadViewController.swift */,
 				9DA4FB511CD1394900950436 /* Assets.xcassets */,
 				9DA4FB531CD1394900950436 /* LaunchScreen.storyboard */,
 				9DA4FB561CD1394900950436 /* Info.plist */,
@@ -141,10 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DA4FB4D1CD1394900950436 /* SecondViewController.swift in Sources */,
+				9DA4FB4D1CD1394900950436 /* RolePlayViewController.swift in Sources */,
 				9DA4FB491CD1394900950436 /* AppDelegate.swift in Sources */,
-				9D7D11131CD145EC004A8D51 /* ThirdViewController.swift in Sources */,
-				9DA4FB4B1CD1394900950436 /* FirstViewController.swift in Sources */,
+				9D7D11131CD145EC004A8D51 /* DadViewController.swift in Sources */,
+				9DA4FB4B1CD1394900950436 /* ProgrammingViewController.swift in Sources */,
+				9D6306481CD16CBB007D5356 /* ProgrammingAnswerViewController.swift in Sources */,
+				9D6306361CD16BB5007D5356 /* RolePlayAnswerViewController.swift in Sources */,
+				9D63063A1CD16C0A007D5356 /* DadAnswerViewController.swift in Sources */,
+				9D6306381CD16BD3007D5356 /* RolePlayQuestViewController.swift in Sources */,
+				9D63063C1CD16C1B007D5356 /* DadQuestViewController.swift in Sources */,
+				9D6306461CD16CA3007D5356 /* ProgrammingQuestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
