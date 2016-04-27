@@ -8,14 +8,14 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ProgrammingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     
         firstBuilder();
-        switchViewController(nil, to: setupViewController)
+        switchViewController(nil, to: jokesetupViewController)
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,13 +23,13 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    private var setupViewController : ProgrammingQuestViewController!
+    private var jokesetupViewController : ProgrammingQuestViewController!
     private var punchlineViewController : ProgrammingAnswerViewController!
 
     
     private func firstBuilder() {
-        if setupViewController == nil {
-            setupViewController = storyboard?.instantiateViewControllerWithIdentifier("Programming Setup")
+        if jokesetupViewController == nil {
+            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("Programming Setup")
             as! ProgrammingQuestViewController
         }
     }
@@ -48,14 +48,14 @@ class FirstViewController: UIViewController {
         UIView.setAnimationDuration(0.4)
         UIView.setAnimationCurve(.EaseInOut)
         
-        if setupViewController != nil && setupViewController?.view.superview != nil {
+        if jokesetupViewController != nil && jokesetupViewController?.view.superview != nil {
             UIView.setAnimationTransition(.FlipFromRight, forView: view, cache: true)
             punchlineViewController.view.frame = view.frame
-            switchViewController(setupViewController, to: punchlineViewController)
+            switchViewController(jokesetupViewController, to: punchlineViewController)
         } else {
             UIView.setAnimationTransition(.FlipFromLeft, forView: view, cache: true)
-            setupViewController.view.frame = view.frame
-            switchViewController(punchlineViewController, to: setupViewController)
+            jokesetupViewController.view.frame = view.frame
+            switchViewController(punchlineViewController, to: jokesetupViewController)
         }
      UIView.commitAnimations()
     }
