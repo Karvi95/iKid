@@ -40,7 +40,7 @@ class RolePlayViewController: UIViewController {
         }
     }
     
-    @IBAction func RevealPunchline(sender: UIBarButtonItem) {
+    @IBAction func RevealPunchline(sender: UIButton) {
         secondBuilder()
         firstBuilder()
         
