@@ -18,19 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhP-xF-epM">
-                                <rect key="frame" x="240" y="236" width="120" height="60"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So I was at the bar last night and the waitress screamed &quot;Does anyone know CPR??&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBh-8V-FA9">
+                                <rect key="frame" x="28" y="116" width="544" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="xhP-xF-epM" firstAttribute="centerY" secondItem="0AY-Vq-Nen" secondAttribute="centerY" constant="-34" id="ET8-dA-Ucw"/>
-                            <constraint firstItem="xhP-xF-epM" firstAttribute="centerX" secondItem="0AY-Vq-Nen" secondAttribute="centerX" id="L3H-MG-3e6"/>
-                            <constraint firstItem="xhP-xF-epM" firstAttribute="centerX" secondItem="0AY-Vq-Nen" secondAttribute="centerX" id="R7F-BE-87X"/>
-                            <constraint firstItem="xhP-xF-epM" firstAttribute="centerY" secondItem="0AY-Vq-Nen" secondAttribute="centerY" constant="-34" id="kAB-P9-OA2"/>
+                            <constraint firstItem="gBh-8V-FA9" firstAttribute="top" secondItem="v4y-p6-e2c" secondAttribute="bottom" constant="96" id="XQ4-t4-zgZ"/>
+                            <constraint firstItem="gBh-8V-FA9" firstAttribute="leading" secondItem="0AY-Vq-Nen" secondAttribute="leadingMargin" constant="8" id="slr-bv-wwt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gBh-8V-FA9" secondAttribute="trailing" constant="8" id="uDt-Pq-bE9"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -50,18 +49,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lNJ-Gt-bJG">
-                                <rect key="frame" x="20" y="20" width="560" height="560"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="560" id="xdA-2q-O9L"/>
-                                </constraints>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So I was at the bar last night and the waitress screamed &quot;Does anyone know CPR??&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tD-ay-4mV">
+                                <rect key="frame" x="28" y="96" width="544" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="lNJ-Gt-bJG" firstAttribute="centerY" secondItem="REf-nV-wmw" secondAttribute="centerY" id="9hB-9N-j9h"/>
-                            <constraint firstItem="lNJ-Gt-bJG" firstAttribute="top" secondItem="IHd-zy-pfr" secondAttribute="bottom" id="CRd-wx-awy"/>
-                            <constraint firstItem="lNJ-Gt-bJG" firstAttribute="centerX" secondItem="REf-nV-wmw" secondAttribute="centerX" id="SDO-id-DB8"/>
+                            <constraint firstItem="0tD-ay-4mV" firstAttribute="leading" secondItem="REf-nV-wmw" secondAttribute="leadingMargin" constant="8" id="T1k-uX-Prq"/>
+                            <constraint firstItem="0tD-ay-4mV" firstAttribute="top" secondItem="IHd-zy-pfr" secondAttribute="bottom" constant="76" id="i7e-HB-yt7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0tD-ay-4mV" secondAttribute="trailing" constant="8" id="vzH-nG-EzO"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -100,7 +99,28 @@
                     <view key="view" contentMode="scaleToFill" id="zve-CN-jnd">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So I was at the bar last night and the waitress screamed &quot;Does anyone know CPR??&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xju-hT-dIE">
+                                <rect key="frame" x="28" y="147" width="544" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="xju-hT-dIE" secondAttribute="trailing" constant="8" id="6Fj-iQ-zHZ"/>
+                            <constraint firstItem="xju-hT-dIE" firstAttribute="centerY" secondItem="zve-CN-jnd" secondAttribute="centerY" id="Piw-sL-oS2"/>
+                            <constraint firstItem="xju-hT-dIE" firstAttribute="centerX" secondItem="zve-CN-jnd" secondAttribute="centerX" id="qL9-BZ-kdV"/>
+                            <constraint firstItem="xju-hT-dIE" firstAttribute="leading" secondItem="zve-CN-jnd" secondAttribute="leadingMargin" constant="8" id="sqh-Vx-zel"/>
+                            <constraint firstItem="xju-hT-dIE" firstAttribute="top" secondItem="E0P-D7-3Xu" secondAttribute="bottom" constant="127" id="stq-PP-kpo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Piw-sL-oS2"/>
+                                <exclude reference="qL9-BZ-kdV"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYz-P1-vbC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -163,14 +183,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sdfg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2T-Ia-V5o">
-                                <rect key="frame" x="288" y="126" width="34" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So I was at the bar last night and the waitress screamed &quot;Does anyone know CPR??&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ono-Sp-6G1">
+                                <rect key="frame" x="28" y="88" width="544" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ono-Sp-6G1" firstAttribute="top" secondItem="cSH-hP-ohu" secondAttribute="bottom" constant="68" id="hzD-Gb-uHp"/>
+                            <constraint firstItem="ono-Sp-6G1" firstAttribute="leading" secondItem="Oiz-5x-Opi" secondAttribute="leadingMargin" constant="8" id="vzT-ue-Wv2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ono-Sp-6G1" secondAttribute="trailing" constant="8" id="w0u-Iv-FRx"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kea-oG-gbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -276,7 +301,20 @@
                     <view key="view" contentMode="scaleToFill" id="Yl6-Io-71k">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I said, &quot;I know the whole alphabet!&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aE-dI-JgL">
+                                <rect key="frame" x="28" y="95" width="544" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4aE-dI-JgL" firstAttribute="leading" secondItem="Yl6-Io-71k" secondAttribute="leadingMargin" constant="8" id="2Se-Ry-tOd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4aE-dI-JgL" secondAttribute="trailing" constant="8" id="VGl-Q0-gOd"/>
+                            <constraint firstItem="4aE-dI-JgL" firstAttribute="top" secondItem="7dk-fK-4lW" secondAttribute="bottom" constant="75" id="ico-nE-awz"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKz-pR-3p0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -295,29 +333,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bSS-Zy-Pv2">
-                                <rect key="frame" x="20" y="20" width="560" height="560"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="560" id="UP5-cE-9Cx"/>
-                                </constraints>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So I was at the bar last night and the waitress screamed &quot;Does anyone know CPR??&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWT-bV-Xx8">
+                                <rect key="frame" x="28" y="110" width="544" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bSS-Zy-Pv2" firstAttribute="top" secondItem="WRN-Sc-ipu" secondAttribute="bottom" constant="8" symbolic="YES" id="IBs-Ht-3LO"/>
-                            <constraint firstItem="bSS-Zy-Pv2" firstAttribute="leading" secondItem="Acw-F2-ndX" secondAttribute="leadingMargin" id="O9F-DL-dXe"/>
-                            <constraint firstItem="bSS-Zy-Pv2" firstAttribute="top" secondItem="WRN-Sc-ipu" secondAttribute="bottom" id="SEL-2I-Dj4"/>
-                            <constraint firstItem="bSS-Zy-Pv2" firstAttribute="centerY" secondItem="Acw-F2-ndX" secondAttribute="centerY" id="b32-BU-Wco"/>
-                            <constraint firstAttribute="bottom" secondItem="bSS-Zy-Pv2" secondAttribute="bottom" constant="20" symbolic="YES" id="nai-Ce-seh"/>
-                            <constraint firstItem="bSS-Zy-Pv2" firstAttribute="centerX" secondItem="Acw-F2-ndX" secondAttribute="centerX" id="vcM-Ka-jvg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dWT-bV-Xx8" secondAttribute="trailing" constant="8" id="AhY-2D-Iwh"/>
+                            <constraint firstItem="dWT-bV-Xx8" firstAttribute="leading" secondItem="Acw-F2-ndX" secondAttribute="leadingMargin" constant="8" id="BYF-ea-BLf"/>
+                            <constraint firstItem="dWT-bV-Xx8" firstAttribute="top" secondItem="WRN-Sc-ipu" secondAttribute="bottom" constant="90" id="Q2W-8c-hZS"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="IBs-Ht-3LO"/>
-                                <exclude reference="O9F-DL-dXe"/>
-                                <exclude reference="nai-Ce-seh"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3L-7w-cdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
