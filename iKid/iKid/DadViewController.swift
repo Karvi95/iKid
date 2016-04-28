@@ -1,8 +1,8 @@
 //
-//  ThirdViewController.swift
+//  DadViewController.swift
 //  iKid
 //
-//  Created by iGuest on 4/27/16.
+//  Created by iGuest on 4/28/16.
 //  Copyright © 2016 iGuest. All rights reserved.
 //
 
@@ -12,35 +12,31 @@ class DadViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        firstBuilder();
-        switchViewController(nil, to: jokesetupViewController)
+        // Do any additional setup after loading the view.
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     private var jokesetupViewController : DadQuestViewController!
     private var punchlineViewController : DadAnswerViewController!
     
-    
     private func firstBuilder() {
         if jokesetupViewController == nil {
-            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("Dad Joke Setup")
+            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("Setup")
                 as! DadQuestViewController
         }
     }
     private func secondBuilder() {
         if punchlineViewController == nil {
-            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("Dad Joke Punchline")
+            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("Punchline")
                 as! DadAnswerViewController
         }
     }
     
-    @IBAction func RevealPunchline(sender: UIButton) {
+    @IBAction func RevealPunchline(sender: UIBarButtonItem) {
         secondBuilder()
         firstBuilder()
         
@@ -48,11 +44,13 @@ class DadViewController: UIViewController {
         UIView.setAnimationDuration(0.4)
         UIView.setAnimationCurve(.EaseInOut)
         
-        if jokesetupViewController != nil && jokesetupViewController?.view.superview != nil {
+        if jokesetupViewController != nil &&
+            jokesetupViewController?.view.superview != nil {
             UIView.setAnimationTransition(.FlipFromRight, forView: view, cache: true)
             punchlineViewController.view.frame = view.frame
             switchViewController(jokesetupViewController, to: punchlineViewController)
-        } else {
+        }
+        else {
             UIView.setAnimationTransition(.FlipFromLeft, forView: view, cache: true)
             jokesetupViewController.view.frame = view.frame
             switchViewController(punchlineViewController, to: jokesetupViewController)
@@ -73,5 +71,15 @@ class DadViewController: UIViewController {
             to!.didMoveToParentViewController(self)
         }
     }
+    
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
 
 }

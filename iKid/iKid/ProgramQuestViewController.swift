@@ -1,14 +1,14 @@
 //
-//  RolePlayQuestViewController.swift
+//  ProgramQuestViewController.swift
 //  iKid
 //
-//  Created by iGuest on 4/27/16.
+//  Created by iGuest on 4/28/16.
 //  Copyright © 2016 iGuest. All rights reserved.
 //
 
 import UIKit
 
-class RolePlayQuestViewController: UIViewController {
+class ProgramQuestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

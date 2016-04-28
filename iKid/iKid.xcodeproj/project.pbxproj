@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D6306361CD16BB5007D5356 /* RolePlayAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6306351CD16BB5007D5356 /* RolePlayAnswerViewController.swift */; };
-		9D6306381CD16BD3007D5356 /* RolePlayQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6306371CD16BD3007D5356 /* RolePlayQuestViewController.swift */; };
-		9D63063A1CD16C0A007D5356 /* DadAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6306391CD16C0A007D5356 /* DadAnswerViewController.swift */; };
-		9D63063C1CD16C1B007D5356 /* DadQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63063B1CD16C1B007D5356 /* DadQuestViewController.swift */; };
-		9D6306461CD16CA3007D5356 /* ProgrammingQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6306451CD16CA3007D5356 /* ProgrammingQuestViewController.swift */; };
-		9D6306481CD16CBB007D5356 /* ProgrammingAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6306471CD16CBB007D5356 /* ProgrammingAnswerViewController.swift */; };
-		9D7D11131CD145EC004A8D51 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D11121CD145EC004A8D51 /* DadViewController.swift */; };
-		9DA4FB491CD1394900950436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4FB481CD1394900950436 /* AppDelegate.swift */; };
-		9DA4FB4B1CD1394900950436 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4FB4A1CD1394900950436 /* ProgrammingViewController.swift */; };
-		9DA4FB4D1CD1394900950436 /* RolePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4FB4C1CD1394900950436 /* RolePlayViewController.swift */; };
-		9DA4FB501CD1394900950436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA4FB4E1CD1394900950436 /* Main.storyboard */; };
-		9DA4FB521CD1394900950436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA4FB511CD1394900950436 /* Assets.xcassets */; };
-		9DA4FB551CD1394900950436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA4FB531CD1394900950436 /* LaunchScreen.storyboard */; };
+		9DEA8A721CD294C000BA273C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA8A711CD294C000BA273C /* AppDelegate.swift */; };
+		9DEA8A791CD294C000BA273C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEA8A771CD294C000BA273C /* Main.storyboard */; };
+		9DEA8A7B1CD294C000BA273C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEA8A7A1CD294C000BA273C /* Assets.xcassets */; };
+		9DEA8A7E1CD294C000BA273C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEA8A7C1CD294C000BA273C /* LaunchScreen.storyboard */; };
+		9DEA8A861CD294F800BA273C /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA8A851CD294F800BA273C /* ProgrammingViewController.swift */; };
+		9DEA8A8A1CD2953500BA273C /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA8A891CD2953500BA273C /* DadViewController.swift */; };
+		9DEA8A8C1CD2968300BA273C /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA8A8B1CD2968300BA273C /* PunViewController.swift */; };
+		9DEA8A8E1CD2985400BA273C /* ProgramQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA8A8D1CD2985400BA273C /* ProgramQuestViewController.swift */; };
+		9DEA8A901CD2986500BA273C /* ProgramAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA8A8F1CD2986500BA273C /* ProgramAnswerViewController.swift */; };
+		9DEA8A921CD2987400BA273C /* PunQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA8A911CD2987400BA273C /* PunQuestViewController.swift */; };
+		9DEA8A941CD2988200BA273C /* PunAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA8A931CD2988200BA273C /* PunAnswerViewController.swift */; };
+		9DEA8A961CD2989900BA273C /* DadQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA8A951CD2989900BA273C /* DadQuestViewController.swift */; };
+		9DEA8A981CD298A600BA273C /* DadAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA8A971CD298A600BA273C /* DadAnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D6306351CD16BB5007D5356 /* RolePlayAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RolePlayAnswerViewController.swift; sourceTree = "<group>"; };
-		9D6306371CD16BD3007D5356 /* RolePlayQuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RolePlayQuestViewController.swift; sourceTree = "<group>"; };
-		9D6306391CD16C0A007D5356 /* DadAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadAnswerViewController.swift; sourceTree = "<group>"; };
-		9D63063B1CD16C1B007D5356 /* DadQuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadQuestViewController.swift; sourceTree = "<group>"; };
-		9D6306451CD16CA3007D5356 /* ProgrammingQuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammingQuestViewController.swift; sourceTree = "<group>"; };
-		9D6306471CD16CBB007D5356 /* ProgrammingAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammingAnswerViewController.swift; sourceTree = "<group>"; };
-		9D7D11121CD145EC004A8D51 /* DadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
-		9DA4FB451CD1394900950436 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DA4FB481CD1394900950436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DA4FB4A1CD1394900950436 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
-		9DA4FB4C1CD1394900950436 /* RolePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolePlayViewController.swift; sourceTree = "<group>"; };
-		9DA4FB4F1CD1394900950436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9DA4FB511CD1394900950436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9DA4FB541CD1394900950436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9DA4FB561CD1394900950436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEA8A6E1CD294C000BA273C /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEA8A711CD294C000BA273C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DEA8A781CD294C000BA273C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DEA8A7A1CD294C000BA273C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DEA8A7D1CD294C000BA273C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DEA8A7F1CD294C000BA273C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEA8A851CD294F800BA273C /* ProgrammingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
+		9DEA8A891CD2953500BA273C /* DadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		9DEA8A8B1CD2968300BA273C /* PunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
+		9DEA8A8D1CD2985400BA273C /* ProgramQuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramQuestViewController.swift; sourceTree = "<group>"; };
+		9DEA8A8F1CD2986500BA273C /* ProgramAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramAnswerViewController.swift; sourceTree = "<group>"; };
+		9DEA8A911CD2987400BA273C /* PunQuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunQuestViewController.swift; sourceTree = "<group>"; };
+		9DEA8A931CD2988200BA273C /* PunAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunAnswerViewController.swift; sourceTree = "<group>"; };
+		9DEA8A951CD2989900BA273C /* DadQuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadQuestViewController.swift; sourceTree = "<group>"; };
+		9DEA8A971CD298A600BA273C /* DadAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadAnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9DA4FB421CD1394900950436 /* Frameworks */ = {
+		9DEA8A6B1CD294C000BA273C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,39 +51,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9DA4FB3C1CD1394900950436 = {
+		9DEA8A651CD294C000BA273C = {
 			isa = PBXGroup;
 			children = (
-				9DA4FB471CD1394900950436 /* iKid */,
-				9DA4FB461CD1394900950436 /* Products */,
+				9DEA8A701CD294C000BA273C /* iKid */,
+				9DEA8A6F1CD294C000BA273C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9DA4FB461CD1394900950436 /* Products */ = {
+		9DEA8A6F1CD294C000BA273C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DA4FB451CD1394900950436 /* iKid.app */,
+				9DEA8A6E1CD294C000BA273C /* iKid.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9DA4FB471CD1394900950436 /* iKid */ = {
+		9DEA8A701CD294C000BA273C /* iKid */ = {
 			isa = PBXGroup;
 			children = (
-				9DA4FB481CD1394900950436 /* AppDelegate.swift */,
-				9DA4FB4E1CD1394900950436 /* Main.storyboard */,
-				9DA4FB4A1CD1394900950436 /* ProgrammingViewController.swift */,
-				9D6306471CD16CBB007D5356 /* ProgrammingAnswerViewController.swift */,
-				9D6306451CD16CA3007D5356 /* ProgrammingQuestViewController.swift */,
-				9DA4FB4C1CD1394900950436 /* RolePlayViewController.swift */,
-				9D6306351CD16BB5007D5356 /* RolePlayAnswerViewController.swift */,
-				9D6306371CD16BD3007D5356 /* RolePlayQuestViewController.swift */,
-				9D7D11121CD145EC004A8D51 /* DadViewController.swift */,
-				9D6306391CD16C0A007D5356 /* DadAnswerViewController.swift */,
-				9D63063B1CD16C1B007D5356 /* DadQuestViewController.swift */,
-				9DA4FB531CD1394900950436 /* LaunchScreen.storyboard */,
-				9DA4FB561CD1394900950436 /* Info.plist */,
-				9DA4FB511CD1394900950436 /* Assets.xcassets */,
+				9DEA8A711CD294C000BA273C /* AppDelegate.swift */,
+				9DEA8A771CD294C000BA273C /* Main.storyboard */,
+				9DEA8A851CD294F800BA273C /* ProgrammingViewController.swift */,
+				9DEA8A8D1CD2985400BA273C /* ProgramQuestViewController.swift */,
+				9DEA8A8F1CD2986500BA273C /* ProgramAnswerViewController.swift */,
+				9DEA8A8B1CD2968300BA273C /* PunViewController.swift */,
+				9DEA8A911CD2987400BA273C /* PunQuestViewController.swift */,
+				9DEA8A931CD2988200BA273C /* PunAnswerViewController.swift */,
+				9DEA8A891CD2953500BA273C /* DadViewController.swift */,
+				9DEA8A951CD2989900BA273C /* DadQuestViewController.swift */,
+				9DEA8A971CD298A600BA273C /* DadAnswerViewController.swift */,
+				9DEA8A7A1CD294C000BA273C /* Assets.xcassets */,
+				9DEA8A7C1CD294C000BA273C /* LaunchScreen.storyboard */,
+				9DEA8A7F1CD294C000BA273C /* Info.plist */,
 			);
 			path = iKid;
 			sourceTree = "<group>";
@@ -91,13 +91,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DA4FB441CD1394900950436 /* iKid */ = {
+		9DEA8A6D1CD294C000BA273C /* iKid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DA4FB591CD1394900950436 /* Build configuration list for PBXNativeTarget "iKid" */;
+			buildConfigurationList = 9DEA8A821CD294C000BA273C /* Build configuration list for PBXNativeTarget "iKid" */;
 			buildPhases = (
-				9DA4FB411CD1394900950436 /* Sources */,
-				9DA4FB421CD1394900950436 /* Frameworks */,
-				9DA4FB431CD1394900950436 /* Resources */,
+				9DEA8A6A1CD294C000BA273C /* Sources */,
+				9DEA8A6B1CD294C000BA273C /* Frameworks */,
+				9DEA8A6C1CD294C000BA273C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -105,25 +105,25 @@
 			);
 			name = iKid;
 			productName = iKid;
-			productReference = 9DA4FB451CD1394900950436 /* iKid.app */;
+			productReference = 9DEA8A6E1CD294C000BA273C /* iKid.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9DA4FB3D1CD1394900950436 /* Project object */ = {
+		9DEA8A661CD294C000BA273C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = iGuest;
 				TargetAttributes = {
-					9DA4FB441CD1394900950436 = {
+					9DEA8A6D1CD294C000BA273C = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = 9DA4FB401CD1394900950436 /* Build configuration list for PBXProject "iKid" */;
+			buildConfigurationList = 9DEA8A691CD294C000BA273C /* Build configuration list for PBXProject "iKid" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -131,62 +131,62 @@
 				en,
 				Base,
 			);
-			mainGroup = 9DA4FB3C1CD1394900950436;
-			productRefGroup = 9DA4FB461CD1394900950436 /* Products */;
+			mainGroup = 9DEA8A651CD294C000BA273C;
+			productRefGroup = 9DEA8A6F1CD294C000BA273C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DA4FB441CD1394900950436 /* iKid */,
+				9DEA8A6D1CD294C000BA273C /* iKid */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9DA4FB431CD1394900950436 /* Resources */ = {
+		9DEA8A6C1CD294C000BA273C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DA4FB551CD1394900950436 /* LaunchScreen.storyboard in Resources */,
-				9DA4FB521CD1394900950436 /* Assets.xcassets in Resources */,
-				9DA4FB501CD1394900950436 /* Main.storyboard in Resources */,
+				9DEA8A7E1CD294C000BA273C /* LaunchScreen.storyboard in Resources */,
+				9DEA8A7B1CD294C000BA273C /* Assets.xcassets in Resources */,
+				9DEA8A791CD294C000BA273C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9DA4FB411CD1394900950436 /* Sources */ = {
+		9DEA8A6A1CD294C000BA273C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DA4FB4D1CD1394900950436 /* RolePlayViewController.swift in Sources */,
-				9DA4FB491CD1394900950436 /* AppDelegate.swift in Sources */,
-				9D7D11131CD145EC004A8D51 /* DadViewController.swift in Sources */,
-				9DA4FB4B1CD1394900950436 /* ProgrammingViewController.swift in Sources */,
-				9D6306481CD16CBB007D5356 /* ProgrammingAnswerViewController.swift in Sources */,
-				9D6306361CD16BB5007D5356 /* RolePlayAnswerViewController.swift in Sources */,
-				9D63063A1CD16C0A007D5356 /* DadAnswerViewController.swift in Sources */,
-				9D6306381CD16BD3007D5356 /* RolePlayQuestViewController.swift in Sources */,
-				9D63063C1CD16C1B007D5356 /* DadQuestViewController.swift in Sources */,
-				9D6306461CD16CA3007D5356 /* ProgrammingQuestViewController.swift in Sources */,
+				9DEA8A8C1CD2968300BA273C /* PunViewController.swift in Sources */,
+				9DEA8A8E1CD2985400BA273C /* ProgramQuestViewController.swift in Sources */,
+				9DEA8A941CD2988200BA273C /* PunAnswerViewController.swift in Sources */,
+				9DEA8A861CD294F800BA273C /* ProgrammingViewController.swift in Sources */,
+				9DEA8A981CD298A600BA273C /* DadAnswerViewController.swift in Sources */,
+				9DEA8A921CD2987400BA273C /* PunQuestViewController.swift in Sources */,
+				9DEA8A901CD2986500BA273C /* ProgramAnswerViewController.swift in Sources */,
+				9DEA8A721CD294C000BA273C /* AppDelegate.swift in Sources */,
+				9DEA8A961CD2989900BA273C /* DadQuestViewController.swift in Sources */,
+				9DEA8A8A1CD2953500BA273C /* DadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9DA4FB4E1CD1394900950436 /* Main.storyboard */ = {
+		9DEA8A771CD294C000BA273C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9DA4FB4F1CD1394900950436 /* Base */,
+				9DEA8A781CD294C000BA273C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9DA4FB531CD1394900950436 /* LaunchScreen.storyboard */ = {
+		9DEA8A7C1CD294C000BA273C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9DA4FB541CD1394900950436 /* Base */,
+				9DEA8A7D1CD294C000BA273C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9DA4FB571CD1394900950436 /* Debug */ = {
+		9DEA8A801CD294C000BA273C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		9DA4FB581CD1394900950436 /* Release */ = {
+		9DEA8A811CD294C000BA273C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,24 +279,24 @@
 			};
 			name = Release;
 		};
-		9DA4FB5A1CD1394900950436 /* Debug */ = {
+		9DEA8A831CD294C000BA273C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iKid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "karvi90-ischool.edu.iKid";
+				PRODUCT_BUNDLE_IDENTIFIER = "karvi90-ischool.iKid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		9DA4FB5B1CD1394900950436 /* Release */ = {
+		9DEA8A841CD294C000BA273C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iKid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "karvi90-ischool.edu.iKid";
+				PRODUCT_BUNDLE_IDENTIFIER = "karvi90-ischool.iKid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -304,25 +304,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DA4FB401CD1394900950436 /* Build configuration list for PBXProject "iKid" */ = {
+		9DEA8A691CD294C000BA273C /* Build configuration list for PBXProject "iKid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DA4FB571CD1394900950436 /* Debug */,
-				9DA4FB581CD1394900950436 /* Release */,
+				9DEA8A801CD294C000BA273C /* Debug */,
+				9DEA8A811CD294C000BA273C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DA4FB591CD1394900950436 /* Build configuration list for PBXNativeTarget "iKid" */ = {
+		9DEA8A821CD294C000BA273C /* Build configuration list for PBXNativeTarget "iKid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DA4FB5A1CD1394900950436 /* Debug */,
-				9DA4FB5B1CD1394900950436 /* Release */,
+				9DEA8A831CD294C000BA273C /* Debug */,
+				9DEA8A841CD294C000BA273C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9DA4FB3D1CD1394900950436 /* Project object */;
+	rootObject = 9DEA8A661CD294C000BA273C /* Project object */;
 }

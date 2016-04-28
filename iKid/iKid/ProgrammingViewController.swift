@@ -1,8 +1,8 @@
 //
-//  FirstViewController.swift
+//  ProgrammingViewController.swift
 //  iKid
 //
-//  Created by iGuest on 4/27/16.
+//  Created by iGuest on 4/28/16.
 //  Copyright © 2016 iGuest. All rights reserved.
 //
 
@@ -12,35 +12,31 @@ class ProgrammingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    
-        firstBuilder();
-        switchViewController(nil, to: jokesetupViewController)
+        
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    private var jokesetupViewController : ProgrammingQuestViewController!
-    private var punchlineViewController : ProgrammingAnswerViewController!
-
+    private var jokesetupViewController : ProgramQuestViewController!
+    private var punchlineViewController : ProgramAnswerViewController!
     
     private func firstBuilder() {
         if jokesetupViewController == nil {
-            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("Programming Setup")
-            as! ProgrammingQuestViewController
+            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("Setup")
+                as! ProgramQuestViewController
         }
     }
     private func secondBuilder() {
         if punchlineViewController == nil {
-            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("Programming Punchline")
-            as! ProgrammingAnswerViewController
+            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("Punchline")
+                as! ProgramAnswerViewController
         }
     }
-    
-    @IBAction func RevealPunchline(sender: UIButton) {
+
+    @IBAction func RevealPunchline(sender: UIBarButtonItem) {
         secondBuilder()
         firstBuilder()
         
@@ -48,18 +44,20 @@ class ProgrammingViewController: UIViewController {
         UIView.setAnimationDuration(0.4)
         UIView.setAnimationCurve(.EaseInOut)
         
-        if jokesetupViewController != nil && jokesetupViewController?.view.superview != nil {
+        if jokesetupViewController != nil &&
+            jokesetupViewController?.view.superview != nil {
             UIView.setAnimationTransition(.FlipFromRight, forView: view, cache: true)
             punchlineViewController.view.frame = view.frame
             switchViewController(jokesetupViewController, to: punchlineViewController)
-        } else {
+        }
+        else {
             UIView.setAnimationTransition(.FlipFromLeft, forView: view, cache: true)
             jokesetupViewController.view.frame = view.frame
             switchViewController(punchlineViewController, to: jokesetupViewController)
         }
-     UIView.commitAnimations()
+        UIView.commitAnimations()
     }
-    
+
     private func switchViewController(from: UIViewController?, to: UIViewController?) {
         if from != nil {
             from!.willMoveToParentViewController(nil)
@@ -73,5 +71,15 @@ class ProgrammingViewController: UIViewController {
             to!.didMoveToParentViewController(self)
         }
     }
-}
 
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
