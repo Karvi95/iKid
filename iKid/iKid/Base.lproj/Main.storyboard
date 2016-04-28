@@ -18,18 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So I was at the bar last night and the waitress screamed &quot;Does anyone know CPR??&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBh-8V-FA9">
-                                <rect key="frame" x="28" y="116" width="544" height="55"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you call a collection that has no methods and doesn’t do anything?" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBh-8V-FA9">
+                                <rect key="frame" x="20" y="63" width="544" height="72"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gBh-8V-FA9" firstAttribute="top" secondItem="v4y-p6-e2c" secondAttribute="bottom" constant="96" id="XQ4-t4-zgZ"/>
-                            <constraint firstItem="gBh-8V-FA9" firstAttribute="leading" secondItem="0AY-Vq-Nen" secondAttribute="leadingMargin" constant="8" id="slr-bv-wwt"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gBh-8V-FA9" secondAttribute="trailing" constant="8" id="uDt-Pq-bE9"/>
+                            <constraint firstItem="gBh-8V-FA9" firstAttribute="top" secondItem="v4y-p6-e2c" secondAttribute="bottom" constant="43" id="XQ4-t4-zgZ"/>
+                            <constraint firstItem="gBh-8V-FA9" firstAttribute="leading" secondItem="0AY-Vq-Nen" secondAttribute="leadingMargin" id="slr-bv-wwt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gBh-8V-FA9" secondAttribute="trailing" constant="16" id="uDt-Pq-bE9"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="31" y="-937"/>
         </scene>
-        <!--PunQuest-->
+        <!--SetupPun-->
         <scene sceneID="a93-g5-fE2">
             <objects>
-                <viewController storyboardIdentifier="SetupPun" title="PunQuest" id="6ml-Hm-xXS" customClass="PunQuestViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SetupPun" title="SetupPun" id="6ml-Hm-xXS" customClass="PunQuestViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IHd-zy-pfr"/>
                         <viewControllerLayoutGuide type="bottom" id="gbK-ud-sjo"/>
@@ -49,18 +49,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So I was at the bar last night and the waitress screamed &quot;Does anyone know CPR??&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tD-ay-4mV">
-                                <rect key="frame" x="28" y="96" width="544" height="55"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What’s the worst thing about throwing a party in space?" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tD-ay-4mV">
+                                <rect key="frame" x="20" y="65" width="544" height="63"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="23"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="0tD-ay-4mV" firstAttribute="leading" secondItem="REf-nV-wmw" secondAttribute="leadingMargin" constant="8" id="T1k-uX-Prq"/>
-                            <constraint firstItem="0tD-ay-4mV" firstAttribute="top" secondItem="IHd-zy-pfr" secondAttribute="bottom" constant="76" id="i7e-HB-yt7"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0tD-ay-4mV" secondAttribute="trailing" constant="8" id="vzH-nG-EzO"/>
+                            <constraint firstItem="0tD-ay-4mV" firstAttribute="leading" secondItem="REf-nV-wmw" secondAttribute="leadingMargin" id="T1k-uX-Prq"/>
+                            <constraint firstItem="0tD-ay-4mV" firstAttribute="top" secondItem="IHd-zy-pfr" secondAttribute="bottom" constant="45" id="i7e-HB-yt7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0tD-ay-4mV" secondAttribute="trailing" constant="16" id="vzH-nG-EzO"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -100,20 +100,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So I was at the bar last night and the waitress screamed &quot;Does anyone know CPR??&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xju-hT-dIE">
-                                <rect key="frame" x="28" y="147" width="544" height="55"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So I was at the bar last night and the waitress screamed &quot;Does anyone know CPR?!&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xju-hT-dIE">
+                                <rect key="frame" x="20" y="60" width="544" height="63"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="23"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="xju-hT-dIE" secondAttribute="trailing" constant="8" id="6Fj-iQ-zHZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xju-hT-dIE" secondAttribute="trailing" constant="16" id="6Fj-iQ-zHZ"/>
                             <constraint firstItem="xju-hT-dIE" firstAttribute="centerY" secondItem="zve-CN-jnd" secondAttribute="centerY" id="Piw-sL-oS2"/>
                             <constraint firstItem="xju-hT-dIE" firstAttribute="centerX" secondItem="zve-CN-jnd" secondAttribute="centerX" id="qL9-BZ-kdV"/>
-                            <constraint firstItem="xju-hT-dIE" firstAttribute="leading" secondItem="zve-CN-jnd" secondAttribute="leadingMargin" constant="8" id="sqh-Vx-zel"/>
-                            <constraint firstItem="xju-hT-dIE" firstAttribute="top" secondItem="E0P-D7-3Xu" secondAttribute="bottom" constant="127" id="stq-PP-kpo"/>
+                            <constraint firstItem="xju-hT-dIE" firstAttribute="leading" secondItem="zve-CN-jnd" secondAttribute="leadingMargin" id="sqh-Vx-zel"/>
+                            <constraint firstItem="xju-hT-dIE" firstAttribute="top" secondItem="E0P-D7-3Xu" secondAttribute="bottom" constant="40" id="stq-PP-kpo"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -183,18 +183,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So I was at the bar last night and the waitress screamed &quot;Does anyone know CPR??&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ono-Sp-6G1">
-                                <rect key="frame" x="28" y="88" width="544" height="55"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A listless list!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ono-Sp-6G1">
+                                <rect key="frame" x="20" y="60" width="544" height="44"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="32"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ono-Sp-6G1" firstAttribute="top" secondItem="cSH-hP-ohu" secondAttribute="bottom" constant="68" id="hzD-Gb-uHp"/>
-                            <constraint firstItem="ono-Sp-6G1" firstAttribute="leading" secondItem="Oiz-5x-Opi" secondAttribute="leadingMargin" constant="8" id="vzT-ue-Wv2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ono-Sp-6G1" secondAttribute="trailing" constant="8" id="w0u-Iv-FRx"/>
+                            <constraint firstItem="ono-Sp-6G1" firstAttribute="top" secondItem="cSH-hP-ohu" secondAttribute="bottom" constant="40" id="hzD-Gb-uHp"/>
+                            <constraint firstItem="ono-Sp-6G1" firstAttribute="leading" secondItem="Oiz-5x-Opi" secondAttribute="leadingMargin" id="vzT-ue-Wv2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ono-Sp-6G1" secondAttribute="trailing" constant="16" id="w0u-Iv-FRx"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -263,7 +263,7 @@
                                 <items>
                                     <barButtonItem title="Toggle Question / Answer" id="w5O-Gp-zjg">
                                         <connections>
-                                            <action selector="RevealPunchline:" destination="2rj-we-Cbt" id="d98-fS-AXJ"/>
+                                            <action selector="RevealPunchline:" destination="2rj-we-Cbt" id="2ij-jD-f5w"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -302,18 +302,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I said, &quot;I know the whole alphabet!&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aE-dI-JgL">
-                                <rect key="frame" x="28" y="95" width="544" height="55"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I said, &quot;I know the whole alphabet!&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aE-dI-JgL">
+                                <rect key="frame" x="20" y="68" width="544" height="39"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="28"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4aE-dI-JgL" firstAttribute="leading" secondItem="Yl6-Io-71k" secondAttribute="leadingMargin" constant="8" id="2Se-Ry-tOd"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="4aE-dI-JgL" secondAttribute="trailing" constant="8" id="VGl-Q0-gOd"/>
-                            <constraint firstItem="4aE-dI-JgL" firstAttribute="top" secondItem="7dk-fK-4lW" secondAttribute="bottom" constant="75" id="ico-nE-awz"/>
+                            <constraint firstItem="4aE-dI-JgL" firstAttribute="leading" secondItem="Yl6-Io-71k" secondAttribute="leadingMargin" id="2Se-Ry-tOd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4aE-dI-JgL" secondAttribute="trailing" constant="16" id="VGl-Q0-gOd"/>
+                            <constraint firstItem="4aE-dI-JgL" firstAttribute="top" secondItem="7dk-fK-4lW" secondAttribute="bottom" constant="48" id="ico-nE-awz"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -321,10 +321,10 @@
             </objects>
             <point key="canvasLocation" x="1362" y="939"/>
         </scene>
-        <!--PunAnswer-->
+        <!--PunPunchline-->
         <scene sceneID="5V3-bw-hsC">
             <objects>
-                <viewController storyboardIdentifier="PunAnswer" title="PunAnswer" id="SAO-ay-qFL" customClass="PunAnswerViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PunPunchline" title="PunPunchline" id="SAO-ay-qFL" customClass="PunAnswerViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WRN-Sc-ipu"/>
                         <viewControllerLayoutGuide type="bottom" id="vbe-pU-iqP"/>
@@ -333,18 +333,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So I was at the bar last night and the waitress screamed &quot;Does anyone know CPR??&quot;" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWT-bV-Xx8">
-                                <rect key="frame" x="28" y="110" width="544" height="55"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have to Planet!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWT-bV-Xx8">
+                                <rect key="frame" x="20" y="60" width="544" height="51"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="37"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="dWT-bV-Xx8" secondAttribute="trailing" constant="8" id="AhY-2D-Iwh"/>
-                            <constraint firstItem="dWT-bV-Xx8" firstAttribute="leading" secondItem="Acw-F2-ndX" secondAttribute="leadingMargin" constant="8" id="BYF-ea-BLf"/>
-                            <constraint firstItem="dWT-bV-Xx8" firstAttribute="top" secondItem="WRN-Sc-ipu" secondAttribute="bottom" constant="90" id="Q2W-8c-hZS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dWT-bV-Xx8" secondAttribute="trailing" constant="16" id="AhY-2D-Iwh"/>
+                            <constraint firstItem="dWT-bV-Xx8" firstAttribute="leading" secondItem="Acw-F2-ndX" secondAttribute="leadingMargin" id="BYF-ea-BLf"/>
+                            <constraint firstItem="dWT-bV-Xx8" firstAttribute="top" secondItem="WRN-Sc-ipu" secondAttribute="bottom" constant="40" id="Q2W-8c-hZS"/>
                         </constraints>
                     </view>
                 </viewController>
