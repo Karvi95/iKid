@@ -25,13 +25,13 @@ class ProgrammingViewController: UIViewController {
     
     private func firstBuilder() {
         if jokesetupViewController == nil {
-            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("Setup")
+            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("SetupProgramming")
                 as! ProgramQuestViewController
         }
     }
     private func secondBuilder() {
         if punchlineViewController == nil {
-            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("Punchline")
+            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("ProgrammingPunchline")
                 as! ProgramAnswerViewController
         }
     }

@@ -3,12 +3,13 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--ProgrammingQuest-->
         <scene sceneID="Tva-YB-BIp">
             <objects>
-                <viewController title="ProgrammingQuest" id="LT1-1J-qVk" customClass="ProgramQuestViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SetupProgramming" title="ProgrammingQuest" id="LT1-1J-qVk" customClass="ProgramQuestViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v4y-p6-e2c"/>
                         <viewControllerLayoutGuide type="bottom" id="ZNw-BP-x7M"/>
@@ -16,7 +17,21 @@
                     <view key="view" contentMode="scaleToFill" id="0AY-Vq-Nen">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhP-xF-epM">
+                                <rect key="frame" x="240" y="236" width="120" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xhP-xF-epM" firstAttribute="centerY" secondItem="0AY-Vq-Nen" secondAttribute="centerY" constant="-34" id="ET8-dA-Ucw"/>
+                            <constraint firstItem="xhP-xF-epM" firstAttribute="centerX" secondItem="0AY-Vq-Nen" secondAttribute="centerX" id="L3H-MG-3e6"/>
+                            <constraint firstItem="xhP-xF-epM" firstAttribute="centerX" secondItem="0AY-Vq-Nen" secondAttribute="centerX" id="R7F-BE-87X"/>
+                            <constraint firstItem="xhP-xF-epM" firstAttribute="centerY" secondItem="0AY-Vq-Nen" secondAttribute="centerY" constant="-34" id="kAB-P9-OA2"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bxd-wR-Otu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -26,7 +41,7 @@
         <!--PunQuest-->
         <scene sceneID="a93-g5-fE2">
             <objects>
-                <viewController title="PunQuest" id="6ml-Hm-xXS" customClass="PunQuestViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SetupPun" title="PunQuest" id="6ml-Hm-xXS" customClass="PunQuestViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IHd-zy-pfr"/>
                         <viewControllerLayoutGuide type="bottom" id="gbK-ud-sjo"/>
@@ -34,7 +49,20 @@
                     <view key="view" contentMode="scaleToFill" id="REf-nV-wmw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lNJ-Gt-bJG">
+                                <rect key="frame" x="20" y="20" width="560" height="560"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="xdA-2q-O9L"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lNJ-Gt-bJG" firstAttribute="centerY" secondItem="REf-nV-wmw" secondAttribute="centerY" id="9hB-9N-j9h"/>
+                            <constraint firstItem="lNJ-Gt-bJG" firstAttribute="top" secondItem="IHd-zy-pfr" secondAttribute="bottom" id="CRd-wx-awy"/>
+                            <constraint firstItem="lNJ-Gt-bJG" firstAttribute="centerX" secondItem="REf-nV-wmw" secondAttribute="centerX" id="SDO-id-DB8"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZI4-Hc-IGE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -64,7 +92,7 @@
         <!--DadQuest-->
         <scene sceneID="fGi-Cs-ABV">
             <objects>
-                <viewController title="DadQuest" id="CaQ-aL-UpZ" customClass="DadQuestViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SetupDad" title="DadQuest" id="CaQ-aL-UpZ" customClass="DadQuestViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E0P-D7-3Xu"/>
                         <viewControllerLayoutGuide type="bottom" id="sBY-ga-Dcr"/>
@@ -90,7 +118,32 @@
                     <view key="view" contentMode="scaleToFill" id="Mej-vw-TgZ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ypa-uB-tIu">
+                                <rect key="frame" x="0.0" y="507" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Toggle Question / Answer" id="kMQ-pH-Fqj">
+                                        <connections>
+                                            <action selector="RevealPunchline:" destination="RFl-uh-1Gq" id="pbq-br-air"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRX-U0-r5t">
+                                <rect key="frame" x="20" y="20" width="31" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZRX-U0-r5t" firstAttribute="top" secondItem="Pud-2C-kqJ" secondAttribute="bottom" id="Gtn-k4-ybt"/>
+                            <constraint firstItem="aJB-R1-KiY" firstAttribute="top" secondItem="Ypa-uB-tIu" secondAttribute="bottom" id="N0Y-QH-kLh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ypa-uB-tIu" secondAttribute="trailing" constant="-20" id="cgD-4v-PXC"/>
+                            <constraint firstItem="Ypa-uB-tIu" firstAttribute="leading" secondItem="Mej-vw-TgZ" secondAttribute="leadingMargin" constant="-20" id="e2R-UW-hJt"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="ZRX-U0-r5t" secondAttribute="leading" id="jVt-Y1-E4k"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dad" image="second" id="Jub-3U-Jia"/>
                 </viewController>
@@ -101,7 +154,7 @@
         <!--ProgrammingAnswer-->
         <scene sceneID="zgJ-Qx-Tsy">
             <objects>
-                <viewController title="ProgrammingAnswer" id="1pV-7t-RBy" customClass="ProgramAnswerViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProgrammingPunchline" title="ProgrammingAnswer" id="1pV-7t-RBy" customClass="ProgramAnswerViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cSH-hP-ohu"/>
                         <viewControllerLayoutGuide type="bottom" id="Zcd-u4-nxb"/>
@@ -109,6 +162,14 @@
                     <view key="view" contentMode="scaleToFill" id="Oiz-5x-Opi">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sdfg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2T-Ia-V5o">
+                                <rect key="frame" x="288" y="126" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -116,10 +177,10 @@
             </objects>
             <point key="canvasLocation" x="1362" y="-937"/>
         </scene>
-        <!--Programming-->
+        <!--Good-->
         <scene sceneID="Nqq-HI-nlC">
             <objects>
-                <viewController id="1Vm-M7-Lx1" customClass="ProgrammingViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Programming" id="1Vm-M7-Lx1" customClass="ProgrammingViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FkV-69-e62"/>
                         <viewControllerLayoutGuide type="bottom" id="SKx-bX-4nV"/>
@@ -127,9 +188,34 @@
                     <view key="view" contentMode="scaleToFill" id="2RY-Vw-erI">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="right" semanticContentAttribute="forceRightToLeft" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvF-s9-osh">
+                                <rect key="frame" x="0.0" y="507" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Toggle Question / Answer" id="qCz-TN-ceW">
+                                        <connections>
+                                            <action selector="RevealPunchline:" destination="1Vm-M7-Lx1" id="h13-5S-KxX"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZC-WI-WrO">
+                                <rect key="frame" x="20" y="28" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZvF-s9-osh" firstAttribute="leading" secondItem="2RY-Vw-erI" secondAttribute="leadingMargin" constant="-20" id="7WX-oq-2LW"/>
+                            <constraint firstItem="SKx-bX-4nV" firstAttribute="top" secondItem="ZvF-s9-osh" secondAttribute="bottom" id="9gC-MQ-PKf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZvF-s9-osh" secondAttribute="trailing" constant="-20" id="RtR-X9-jzK"/>
+                            <constraint firstItem="jZC-WI-WrO" firstAttribute="top" secondItem="FkV-69-e62" secondAttribute="bottom" constant="8" id="Sey-wt-fnR"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="jZC-WI-WrO" secondAttribute="leading" id="thc-y2-CpX"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Programming" image="second" id="c3b-d9-12u"/>
+                    <tabBarItem key="tabBarItem" title="Good" image="second" id="c3b-d9-12u"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NdS-Db-OpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,7 +224,7 @@
         <!--Pun-->
         <scene sceneID="Izo-Bh-6Q0">
             <objects>
-                <viewController title="Pun" id="2rj-we-Cbt" customClass="PunViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Pun" title="Pun" id="2rj-we-Cbt" customClass="PunViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0PC-nd-R2L"/>
                         <viewControllerLayoutGuide type="bottom" id="X9s-bg-Mcm"/>
@@ -146,7 +232,32 @@
                     <view key="view" contentMode="scaleToFill" id="hzn-AC-L9v">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vr7-wf-xz8">
+                                <rect key="frame" x="0.0" y="507" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Toggle Question / Answer" id="w5O-Gp-zjg">
+                                        <connections>
+                                            <action selector="RevealPunchline:" destination="2rj-we-Cbt" id="d98-fS-AXJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sft-m5-KcE">
+                                <rect key="frame" x="20" y="20" width="30" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vr7-wf-xz8" firstAttribute="leading" secondItem="hzn-AC-L9v" secondAttribute="leadingMargin" constant="-20" id="O2i-4J-AvS"/>
+                            <constraint firstItem="X9s-bg-Mcm" firstAttribute="top" secondItem="vr7-wf-xz8" secondAttribute="bottom" id="PkG-xW-Snw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vr7-wf-xz8" secondAttribute="trailing" constant="-20" id="Yn7-CB-59v"/>
+                            <constraint firstItem="sft-m5-KcE" firstAttribute="top" secondItem="0PC-nd-R2L" secondAttribute="bottom" id="cjr-3m-0c4"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="sft-m5-KcE" secondAttribute="leading" id="fHa-VX-WHo"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pun" image="second" id="R8V-fW-9Xa"/>
                 </viewController>
@@ -157,7 +268,7 @@
         <!--DadAnswer-->
         <scene sceneID="umb-gW-XQx">
             <objects>
-                <viewController title="DadAnswer" id="N4S-Ls-3Sj" customClass="DadAnswerViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DadPunchline" title="DadAnswer" id="N4S-Ls-3Sj" customClass="DadAnswerViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7dk-fK-4lW"/>
                         <viewControllerLayoutGuide type="bottom" id="UpL-v1-Guq"/>
@@ -175,7 +286,7 @@
         <!--PunAnswer-->
         <scene sceneID="5V3-bw-hsC">
             <objects>
-                <viewController title="PunAnswer" id="SAO-ay-qFL" customClass="PunAnswerViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PunAnswer" title="PunAnswer" id="SAO-ay-qFL" customClass="PunAnswerViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WRN-Sc-ipu"/>
                         <viewControllerLayoutGuide type="bottom" id="vbe-pU-iqP"/>
@@ -183,7 +294,30 @@
                     <view key="view" contentMode="scaleToFill" id="Acw-F2-ndX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bSS-Zy-Pv2">
+                                <rect key="frame" x="20" y="20" width="560" height="560"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="UP5-cE-9Cx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bSS-Zy-Pv2" firstAttribute="top" secondItem="WRN-Sc-ipu" secondAttribute="bottom" constant="8" symbolic="YES" id="IBs-Ht-3LO"/>
+                            <constraint firstItem="bSS-Zy-Pv2" firstAttribute="leading" secondItem="Acw-F2-ndX" secondAttribute="leadingMargin" id="O9F-DL-dXe"/>
+                            <constraint firstItem="bSS-Zy-Pv2" firstAttribute="top" secondItem="WRN-Sc-ipu" secondAttribute="bottom" id="SEL-2I-Dj4"/>
+                            <constraint firstItem="bSS-Zy-Pv2" firstAttribute="centerY" secondItem="Acw-F2-ndX" secondAttribute="centerY" id="b32-BU-Wco"/>
+                            <constraint firstAttribute="bottom" secondItem="bSS-Zy-Pv2" secondAttribute="bottom" constant="20" symbolic="YES" id="nai-Ce-seh"/>
+                            <constraint firstItem="bSS-Zy-Pv2" firstAttribute="centerX" secondItem="Acw-F2-ndX" secondAttribute="centerX" id="vcM-Ka-jvg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="IBs-Ht-3LO"/>
+                                <exclude reference="O9F-DL-dXe"/>
+                                <exclude reference="nai-Ce-seh"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3L-7w-cdH" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -25,13 +25,13 @@ class DadViewController: UIViewController {
     
     private func firstBuilder() {
         if jokesetupViewController == nil {
-            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("Setup")
+            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("SetupDad")
                 as! DadQuestViewController
         }
     }
     private func secondBuilder() {
         if punchlineViewController == nil {
-            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("Punchline")
+            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("DadPunchline")
                 as! DadAnswerViewController
         }
     }

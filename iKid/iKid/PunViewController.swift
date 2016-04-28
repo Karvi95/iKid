@@ -25,13 +25,13 @@ class PunViewController: UIViewController {
     
     private func firstBuilder() {
         if jokesetupViewController == nil {
-            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("Setup")
+            jokesetupViewController = storyboard?.instantiateViewControllerWithIdentifier("SetupPun")
                 as! PunQuestViewController
         }
     }
     private func secondBuilder() {
         if punchlineViewController == nil {
-            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("Punchline")
+            punchlineViewController = storyboard?.instantiateViewControllerWithIdentifier("PunPunchline")
                 as! PunAnswerViewController
         }
     }
